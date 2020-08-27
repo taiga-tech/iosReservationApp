@@ -13,6 +13,7 @@
 		3084085B24D75633007E60CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3084085924D75633007E60CB /* Main.storyboard */; };
 		3084085D24D75634007E60CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3084085C24D75634007E60CB /* Assets.xcassets */; };
 		3084086024D75634007E60CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3084085E24D75634007E60CB /* LaunchScreen.storyboard */; };
+		3084086924D75712007E60CB /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3084086824D75712007E60CB /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3084085C24D75634007E60CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3084085F24D75634007E60CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3084086124D75634007E60CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3084086824D75712007E60CB /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3084086924D75712007E60CB /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				3084085224D75633007E60CB /* iosReservationApp */,
 				3084085124D75633007E60CB /* Products */,
+				3084086724D75712007E60CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +69,14 @@
 				3084086124D75634007E60CB /* Info.plist */,
 			);
 			path = iosReservationApp;
+			sourceTree = "<group>";
+		};
+		3084086724D75712007E60CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3084086824D75712007E60CB /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
