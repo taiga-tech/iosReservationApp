@@ -21,7 +21,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let urlString = "https://hairsalon-reservation.herokuapp.com/"
+//         let urlString = "https://hairsalon-reservation.herokuapp.com/"
+        let urlString = "http://54.248.158.30/"
         
         let urlRequest = URLRequest(url: URL(string: urlString)!)
         
